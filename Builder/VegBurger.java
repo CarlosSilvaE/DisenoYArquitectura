@@ -1,0 +1,16 @@
+package Builder;
+
+public class VegBurger extends Burger{
+
+	public float price(){
+		return 25.0f;
+	}
+	
+	public String name(){
+		return "Veg Burger";
+	}
+	
+	public String ingredient() {
+		return "Aguacate";
+	}
+}
